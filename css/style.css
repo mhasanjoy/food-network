@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+}
+
+.half-width {
+  width: 50%;
+}
+
+h1 {
+  color: #575757;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.color-highlight {
+  color: #fba24f;
+}
+
+.link-button {
+  background-image: linear-gradient(90deg, #FBA24F, #FF1E1E);
+  border-radius: 30px;
+  padding: 15px 30px;
+  color: white;
+}
+
+.half-width img {
+  width: 100%;
+}
