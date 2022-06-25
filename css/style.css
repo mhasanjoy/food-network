@@ -7,10 +7,16 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
-.top-section {
+.top-section,
+.about-section,
+.recipe-items,
+.social-media {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
+}
+
+.top-section {
   padding: 100px;
 }
 
@@ -18,14 +24,20 @@ body {
   width: 50%;
 }
 
-h1 {
+.top-section h1 {
   color: #575757;
-  font-size: 50px;
-  margin-bottom: 20px;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-bottom: 30px;
 }
 
 .color-highlight {
   color: #fba24f;
+}
+
+.top-section p {
+  margin-bottom: 60px;
+  color: #828282;
 }
 
 .link-button {
@@ -35,6 +47,95 @@ h1 {
   color: white;
 }
 
-.half-width img {
+.top-section img {
   width: 100%;
+}
+
+.about-section {
+  background-image: url("../images/Background.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 50px 200px 0;
+}
+
+.about-section img {
+  width: 60%;
+}
+
+h2 {
+  color: #707070;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.about-section p {
+  color: #18191F;
+  margin-bottom: 60px;
+}
+
+.recipe-section {
+  padding: 100px 70px;
+}
+
+.recipe-section p {
+  color: #252525;
+}
+
+.recipe-description {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.recipe-item {
+  width: 33%;
+  margin: 30px;
+  padding: 20px;
+}
+
+.recipe-item img {
+  width: 100%;
+}
+
+.recipe-item h3 {
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.recipe-item,
+.social-media {
+  box-shadow: 3px 3px 30px lightgray;
+  border-radius: 10px;
+}
+
+.social-media {
+  margin: 0 100px 100px;
+  padding: 5rem;
+}
+
+.social-media h2 {
+  color: black;
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+footer {
+  background-color: #0B0D17;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+footer h3 {
+  font-size: 1.5rem;
+  color: #5B5B5B;
+  margin-bottom: 30px;
+}
+
+footer p {
+  color: white;
 }
